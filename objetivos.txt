@@ -1,0 +1,26 @@
+En este archivo radican los resultados esperados por cada modalidad de IA que debemos lograr antes de la competencia
+NOTA: el archivo está organizado de mayor a menor importancia de más probable a menos probable
+
+NLP = [
+    - Supiniendo que tenemos un CSV con valores de nombre, apellido, edad y sueldo, debemos poder:
+        1. Extraer información -> (ej: si hay una persona llamada Juan, decir cuál es su sueldo, sino decir "no hay nadie con ese nombre")
+        2. Responder preguntas -> (ej: responder quién es la persona con más edad)
+        3. Trabajar con los datos -> (ej: sacar un promedio de sueldos)
+    - Traducir texto de inglés a español
+    - Hacer resumenes, sacar la idea principal del texto
+    - Clasificar un texto en diferentes categorías -> (ej: categorizar alimentos en = (frutas, verduras, dulce, salado, comida))
+
+]
+
+CV = [
+    - OCR: extraer texto de imagenes
+    - Categorizar/detectar objetos
+]
+
+ML = [
+    - Suponiendo que tenemos un CSV con valores de empleado, sueldo y hrs_trabajadas, debemos poder:
+        1. Predecir qué empleado es más probable que suba de sueldo por sus hrs_trabajadas
+        2. Predecir qué empleado puede ser despedido
+]
+
+    ** IMPORTANTE: de no haber resultados debe estar controlado, y si hay más de un resultado, igual **
