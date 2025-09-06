@@ -1,0 +1,11 @@
+"password","last_login","is_superuser","id_usuario","usuario","rol","foto","estado","fecha_creacion","is_active","is_staff","id_persona"
+"pbkdf2_sha256$1000000$AlT6iCnwc8D6YCw3Z4k4qc$tXGWbCNBHRojB00fLS0xUc+Ap2ATEBGvg3wdFmR3r9A=","2025-08-30 12:07:20.651009+00",True,40,"Chris","admin","","act","2025-06-23 01:49:01.345097+00",True,True,44
+"pbkdf2_sha256$1000000$t9fXokn97cmTaovKsVOcfu$6fBM64AoE2aZDGUTTVim3CyhabIkJA3u32RiIXGLbvA=",NULL,False,41,"Freddy","admin","","ina","2025-06-23 01:52:44.09519+00",False,False,45
+"pbkdf2_sha256$1000000$6reVpAeYyLkSDLYgseOiha$euQbiDfTKd23MtsvjAbPg0hvv/rp65iajGeU1X03Lm4=",NULL,False,42,"Laura","admin","","act","2025-06-23 01:54:09.869937+00",True,False,46
+"pbkdf2_sha256$1000000$avavy75jfx6DryjVI8Jr9o$gbPUywkU518XuhHR+iZBNQ7sHWIU1iSsjSOHryhP7tc=","2025-06-23 03:00:32.365595+00",False,43,"Marianella","admin","profile_photos/WhatsApp_Image_2025-06-19_at_11.27.15.jpeg","act","2025-06-23 01:55:35.574318+00",True,False,47
+"pbkdf2_sha256$1000000$qdoWAtDzkkqWd0fJA6Vkfx$Tnfsd1VALQpzjzzqA5nMEoN2I8NaEac0hJpI7/XtrcM=","2025-06-23 03:06:08.387547+00",False,44,"Elmer","admin","profile_photos/WhatsApp_Image_2025-06-19_at_11.55.32.jpeg","act","2025-06-23 01:56:52.730485+00",True,False,48
+"pbkdf2_sha256$1000000$hOoFFk9A48lDuMCxFzA3GF$XpH/kk1fjpYvnItXGjxVJZCJL+1MYjeCz3ZwXzXnXbM=","2025-08-15 16:39:27.949014+00",False,45,"Luke","estud","","act","2025-06-23 02:01:40.376737+00",True,False,49
+"pbkdf2_sha256$1000000$8cdfl2AAFyfQV9E15HFdFp$OB07g773pkNXyA91I+R9Y8IcqjyapdTtc1bjdxFvNIE=",NULL,False,46,"Stuart","estud","","act","2025-06-23 02:04:15.539712+00",True,False,50
+"pbkdf2_sha256$1000000$2bPg7lGjbhTgWtK3FA3Jbv$K3wnEnVT1SXXWnX1Sn81ZaUB6YAt2Ov490hRfkx8Eyg=","2025-08-05 18:07:23.05396+00",False,47,"Mario","docen","profile_photos/Mario..png","act","2025-06-23 02:07:53.67814+00",True,False,51
+"pbkdf2_sha256$1000000$VGm778umeDk4ibOCE3qRtP$kZ/vlMLlUWZdlLgY1btPs15I29oTlkW6ytElelISR4A=",NULL,False,48,"Adolfo","docen","","act","2025-07-23 22:36:54.065674+00",True,False,52
+"pbkdf2_sha256$1000000$SuKA4JUU4yGDyAa6d0MecI$7MsxJI14rwm+hZZSa3lCtViUt2a0gde1zOuoo/vW0jk=",NULL,False,49,"Shen","estud","","ina","2025-07-23 22:40:29.212725+00",False,False,53
