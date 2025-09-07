@@ -1,9 +1,5 @@
-from transformers import pipeline       # NLP
-from datetime import datetime
+from transformers import pipeline
 import locale
-
-
-locale.setlocale(locale.LC_TIME, "es_CO.utf8")
 
 
 ai = pipeline(
@@ -34,7 +30,6 @@ contexto = [
     "La capital de México es Ciudad de México",
     "La capital de Ecuador es Quito",
     "La capital de Estados Unidos es Washington D.C.",
-    "The computer is heating up",
 ]
 
 preguntas = [

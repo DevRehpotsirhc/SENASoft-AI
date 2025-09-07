@@ -2,7 +2,7 @@ import pandas as pd
 from transformers import pipeline
 
 # 1. Cargamos el CSV
-df = pd.read_csv("personas.csv")
+df = pd.read_csv("christopher/data/personas.csv")
 
 # 2. LLM para NLP
 generator = pipeline("text2text-generation", model="google/flan-t5-base")
@@ -27,7 +27,7 @@ def responder(pregunta: str):
         resultado = "No entendí la pregunta en este prototipo."
 
     # --- Paso 2: LLM para embellecer la respuesta ---
-    prompt = f"Responde en español de forma natural: La respuesta es {resultado}"
+    prompt = f"La respuesta es {resultado}"
     respuesta = generator(prompt, max_length=100)[0]["generated_text"]
 
     return respuesta
