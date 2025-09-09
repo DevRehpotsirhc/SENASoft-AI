@@ -15,6 +15,6 @@ def clasificar(comentario: str) -> str:
     return "Positivo" if clasificacion["labels"][0] == "positivo" else "Negativo" if clasificacion["labels"][0] == "negativo" else "Parece que su comentario no puede clasificarse entre positivo o negativo" # type:ignore
 
 
-comentario = "No me gusta Laura, pero en realidad sí"
+comentario = "Dije que no me gustaba Laura, pero en realidad sí"
 
 print(clasificar(comentario))

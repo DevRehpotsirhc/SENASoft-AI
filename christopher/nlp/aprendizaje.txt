@@ -1,0 +1,30 @@
+Aquí radicará todo lo que sepa hasta el momento de NLP (Natural Language Proccesing) o procesamiento de lenguaje natural
+
+Qué es NLP:
+    - Filtrado, clasificación y uso de modelos IA para procesar lenguaje humano (texto específicamente) y convertirlo en "algo" útil.
+
+Para qué sirve:
+    - Responder preguntas
+    - Detectar intenciones/sentimientos
+    - Clasificar y separar
+    - Traducir
+    - Resumir/generar respuestas
+    - Predecir palabras
+    - Comparar textos
+
+Tipos de pipeline que se pueden usar:
+    - "question-answering": Responde preguntas
+    - "sentiment-analysis": Detecta sentimientos
+    - "text-classification": Clasifica el texto
+    - "zero-shot-classification": Clasifica el texto en categorías (o etiquetas)
+    - "translation": Traducir texto
+    - "summarization": Resumir texto
+    - "text2text-generation": Generación de texto (se puede mezclar con prompts para segregar funciones)
+    - "fill-mask": Predice la palabra que puede continuar en un texto
+    - "sentence-similarity": Compara qué tanto se parecen dos textos
+
+Requerimientos/limitaciones:
+    - El modelo debe cargarse y estar instalado (de no estarlo, se instala en ejecución)
+    - Antes de enviar un texto a un LLM es recomendado tokenizar y quitar los stopwords de las palabras con AutoTokenizer de Hugging Face (o con NLTK o spaCy)
+    - Necesita un contexto para trabajar, no puede inventar nada que no tenga en sus datos.
+    - Si el modelo mo maneja el idioma las respuestas pueden ser incongruentes
