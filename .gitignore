@@ -1,4 +1,4 @@
 .env
 venv
 Practical_Machine_learning_Python
-_pycache_/
+__pycache__/
